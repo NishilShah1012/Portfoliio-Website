@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Creative Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+
+    <!-- Navigation -->
+    <nav>
+      <a href="#" class="logo">PORTFOLIO</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="profile-picture">
+          <img src="./src/img/Profile.jpg" alt="Profile Picture" />
+        </div>
+        <h1>Hello, I'm Nishil Shah<br />MERN Stack Developer</h1>
+        <p>
+          Building digital experiences that merge innovative design with
+          cutting-edge technology
+        </p>
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2 class="section-title fade-in">About Me</h2>
+      <div class="about-content">
+        <div class="about-text fade-in">
+          <p>
+            Passionate and dedicated web developer with expertise in MERN stack (MongoDB, Express.js, React, Node.js), HTML, CSS, JavaScript, and databases (MySQL). 
+          </p>
+          <p>
+            Proficient in data structures and algorithms, ensuring efficient and optimized solutions. Skilled in UI/UX design using Figma, with additional experience in Canva for visual content creation.
+          </p>
+          <p>
+            Strong problem-solving abilities with hands-on experience in C, C++, Java and adept at utilizing Microsoft Word, Excel, and PowerPoint for documentation and reporting. Committed to delivering high-quality, user-friendly web applications.
+          </p>
+        </div>
+        <div class="fade-in">
+          <h3>Skills & Expertise</h3>
+          <div class="skills">
+            <span class="skill">HTML/CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">React.js</span>
+            <span class="skill">Express.js</span>
+            <span class="skill">Node.js</span>
+            <span class="skill">MongoDB</span>
+            <span class="skill">UI/UX Design</span>
+            <span class="skill">Git</span>
+            <span class="skill">Figma</span>
+            <span class="skill">Canva</span>
+          </div>
+        </div>
+        <div class="fade-in">
+            <h3>Languages</h3>
+            <div class="skills">
+              <span class="skill">C</span>
+              <span class="skill">C++</span>
+              <span class="skill">Python</span>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <h2 class="section-title fade-in">Featured Projects</h2>
+      <div class="project-grid">
+        <!-- Project 1 -->
+        <div class="project-card fade-in">
+          <div class="project-img">
+            <img src="/src/img/Project1.png" alt="Project 1" />
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">MedInventory - A Smart Medical Inventory System</h3>
+            <div class="project-tags">
+              <span class="project-tag">MERN stack</span>
+              <span class="project-tag">ML</span>
+              <span class="project-tag">tailwind CSS</span>
+            </div>
+            <p class="project-description">
+              <b> MedInventory </b> is a smart, scalable medical inventory system built with the MERN stack and integrated with a Flask ML API. It features a responsive UI with theme switching, automated stock/expiry alerts, smart recommendations, sales analytics, and professional billing with multi-payment support—streamlining inventory and sales for medical stores.
+            </p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card fade-in">
+          <div class="project-img">
+            <img src="/src/img/Project2.png" alt="Project 2" />
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Restaurant Reservation System</h3>
+            <div class="project-tags">
+              <span class="project-tag">MERN stack</span>
+              <span class="project-tag">CORS</span>
+              <span class="project-tag">REST API</span>
+              
+            </div>
+            <p class="project-description">
+              <b>Restaurant Reservation System</b> is a MERN stack web app that lets users view restaurant details and book tables online. It features a responsive design, a reservation form with validation, and secure backend handling via REST API with proper error handling and CORS setup.
+            </p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+
+        <!-- Add more projects here -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2 class="section-title fade-in">Get In Touch</h2>
+      <div class="contact-form fade-in">
+        <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+          <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+          <div class="form-group">
+            <input type="text" name="name" class="form-control" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" class="form-control" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <textarea name="message" class="form-control" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+          <p id="formStatus" class="form-status"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="social-links">
+        <a href="https://github.com/NishilShah1012" class="social-link">
+          <i>GitHub</i>
+        </a>
+        <a href="https://www.linkedin.com/in/nishil-shah-077560246/" class="social-link">
+          <i>LinkedIn</i>
+        </a>
+        <a href="https://leetcode.com/u/Nishil1012/" class="social-link">
+          <i>LeetCode</i>
+        </a>
+        
+      </div>
+      <p>&copy; 2025 Creative Portfolio. All rights reserved.</p>
+    </footer>
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+      ↑
+    </button>
+  </body>
+</html>
