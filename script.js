@@ -26,13 +26,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Form submission (placeholder)
-const contactForm = document.querySelector('.contact-form form');
-contactForm.addEventListener('submit', (e) => {
-  e.preventDefault();
-  alert('Thank you for your message! This form is not connected to a backend yet.');
-  contactForm.reset();
-});
+
 
 // Scroll-to-top functionality
 const scrollToTopButton = document.createElement('div');
